@@ -358,6 +358,21 @@ option {
 .vi1 {
   display: inline-flex;
 }
+
+
+.taille:hover {
+  position :relative;
+    animation: move 0.3s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  0%   {top : 0px;}
+  100% {top: 5px;}
+
+}
+
+
 .tailleB {
 border-bottom: 1px solid rgba(255,255,255,0.5);
 display: block;
