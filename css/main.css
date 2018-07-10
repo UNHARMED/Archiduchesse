@@ -363,6 +363,7 @@ option {
 .taille:hover {
   position :relative;
     animation: move 0.3s ;
+    -webkit-animation: move 0.3s ;
     animation-fill-mode: forwards;
 }
 
@@ -665,7 +666,7 @@ footer div ul {
 
 .svgC svg:hover {
   position :relative;
-    -webkit-animation: mymove 0.5s ; /* Safari 4.0 - 8.0 */
+    -webkit-animation: mymove 0.5s ;
     animation: mymove 0.5s ;
 }
 
